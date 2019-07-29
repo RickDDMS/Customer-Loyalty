@@ -3,10 +3,9 @@ tableextension 50201 "Sales Header.COL.US" extends "Sales Header"
 {
     fields
     {
-        field(50200; "loyaltyStatus.COL.US"; Option)
+        field(50200; "loyaltyStatus.COL.US"; Enum "Loyalty Status.COL.US")
         {
             DataClassification = CustomerContent;
-            OptionMembers = Bronze,Silver,Gold;
             Caption = 'Loyalty Status';
             Editable = false;
         }
