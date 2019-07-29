@@ -1,0 +1,26 @@
+{
+  "id": "51856e32-f9cf-4b94-9108-37099533124f",
+  "name": "Customer Loyalty",
+  "publisher": "Columbus US",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "Columbus Globals Customer Loyalty program",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "./Resources/Logo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "idRanges": [
+    {
+      "from": 50200,
+      "to": 50249
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://ALProject1.com/help/",
+  "showMyCode": true,
+  "runtime": "3.0"
+}
