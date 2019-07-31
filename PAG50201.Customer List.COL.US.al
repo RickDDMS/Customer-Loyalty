@@ -1,12 +1,5 @@
-pageextension 50200 "Customer Card.COL.US" extends "Customer Card"
+pageextension 50203 "Customer List.COL.US" extends "Customer List"
 {
-    layout
-    {
-        addlast(General)
-        {
-            field("loyaltyStatus.COL.US"; "loyaltyStatus.COL.US") { }
-        }
-    }
     actions
     {
         addlast(History)

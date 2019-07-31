@@ -5,6 +5,7 @@ page 50200 "Loyalty Ledger Entries.COL.US"
     UsageCategory = Lists;
     SourceTable = "Loyalty Ledger.COL.US";
     Caption = 'Loyalty Ledger Entries';
+    SourceTableView = sorting ("Customer No.COL.US", "Posting Date.COL.US");
     Editable = false;
 
     layout
@@ -38,22 +39,6 @@ page 50200 "Loyalty Ledger Entries.COL.US"
         area(Factboxes)
         {
 
-        }
-    }
-
-    actions
-    {
-        area(Processing)
-        {
-            action(ActionName)
-            {
-                ApplicationArea = All;
-
-                trigger OnAction();
-                begin
-
-                end;
-            }
         }
     }
 }
